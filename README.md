@@ -1,10 +1,11 @@
-Claro, Samir. Aquí tienes un README estructurado y claro para tu proyecto:
 
 🗺️ Mapa Interactivo de Incidencias en Colegios del Perú
-Este proyecto es un sistema de filtrado geográfico que permite visualizar y explorar incidencias de violencia en colegios del Perú, utilizando datos espaciales y una interfaz interactiva basada en Leaflet.
+Este proyecto es un sistema de filtrado geográfico que permite visualizar y explorar incidencias de violencia en colegios del Perú,
+utilizando datos espaciales y una interfaz interactiva basada en Leaflet.
 
 📌 Descripción
-El sistema permite al usuario navegar por el mapa del Perú, seleccionando departamentos, provincias y distritos. Al seleccionar un distrito, se generan colegios simulados como marcadores en el mapa. Al hacer clic en un colegio, se muestra una tabla detallada con las incidencias registradas, incluyendo:
+El sistema permite al usuario navegar por el mapa del Perú, seleccionando departamentos, provincias y distritos. Al seleccionar un distrito,
+se generan colegios simulados como marcadores en el mapa. Al hacer clic en un colegio, se muestra una tabla detallada con las incidencias registradas, incluyendo:
 - Número de incidencia
 - Motivo (ej. bullying, acoso, violencia física)
 - Agresor
@@ -46,6 +47,6 @@ Este sistema puede adaptarse para:
 - Servidor local para cargar archivos GeoJSON (ej. Live Server, Python HTTP server).
 
 🧪 Simulación
-Actualmente, los colegios y sus incidencias se generan de forma aleatoria para fines de demostración. Puedes conectar el sistema a una base de datos real para mostrar información oficial.
+Actualmente, los colegios y sus incidencias se generan de forma aleatoria para fines de demostración. 
+Puedes conectar el sistema a una base de datos real para mostrar información oficial.
 
-¿Quieres que te ayude a convertir esto en un repositorio público con documentación técnica o instrucciones de despliegue? También puedo ayudarte a generar una versión en inglés si lo necesitas.
