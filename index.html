@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mapa Interactivo Perú</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+  <h1>Mapa Interactivo del Perú</h1>
+  <div id="main-container">
+    <div id="map-container">
+      <button id="reset-btn">Volver al inicio</button>
+      <div id="map"></div>
+    </div>
+    <div id="school-report">
+  <h2>Colegios en el distrito</h2>
+  <h3 id="school-name"></h3> 
+  <table id="school-table">
+    <thead>
+      <tr>
+        <th>Nro de incidencia</th>
+        <th>Motivo</th>
+        <th>Agresor</th>
+        <th>Víctima</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+</div>
+  </div>
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

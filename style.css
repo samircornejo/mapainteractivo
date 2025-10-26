@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  
+}
+
+#main-container {
+  position: center;
+  display: flex;
+  height: 80vh;
+}
+
+#map-container {
+  flex: 2;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+#map {
+  flex: 1;
+  height: 40vh;
+  width: 50%;
+}
+
+#reset-btn {
+  padding: 8px 16px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+  align-self: flex-start;
+}
+
+#school-report {
+  flex: 1;
+  width: 400px;
+  padding: 10px;
+  background: #f1f1f1;
+  border-left: 1px solid #ccc;
+  overflow-y: auto;
+}
+
+#school-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#school-table th,
+#school-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
